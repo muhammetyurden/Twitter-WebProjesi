@@ -1,6 +1,5 @@
 .navButton {
   position: relative;
-  color: var(--c-text-color);
   padding: 10px;
   border-radius: 99px;
   display: flex;
@@ -20,12 +19,7 @@
     }
 
   }
-
-
-
 }
-
-
 
 .navButtonSelected {
     color: var(--c-theme);
