@@ -33,7 +33,7 @@ function Navigation({ selectedKey }) {
         <TitleBold>Explore</TitleBold>
       </NavigationButton>
 
-      <NavigationButton notify={15} selected={selectedKey === 'notification'}>
+      <NavigationButton notify={99} selected={selectedKey === 'notification'}>
         <Notification />
         <TitleBold>Notification</TitleBold>
       </NavigationButton>
