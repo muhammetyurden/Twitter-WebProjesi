@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
 
+    /* bütün alt elemanlara uygulanır */
     * + * {
         margin-left: var(--gap);
     }
