@@ -13,7 +13,7 @@ function Homepage() {
 
   return (
     <Layout>
-      <Sidebar flat={size.width > CONST.DESKTOP_SIZE}>sidebar</Sidebar>
+      <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>sidebar</Sidebar>
       <Main>{JSON.stringify(size)}</Main>
       {size.width > CONST.TABLET_SIZE && <Extra>extra</Extra>}
     </Layout>
