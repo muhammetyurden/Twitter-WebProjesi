@@ -2,7 +2,7 @@ import React from 'react'
 
 import { withKnobs, boolean } from '@storybook/addon-knobs'
 
-import Button from '../components/button'
+import Button from '../components/button/button'
 import NavigationButton from '../components/navigation-button'
 import Navigation from '../components/navigation'
 import { Home } from '../components/icons'

@@ -5,7 +5,7 @@ import styles from './profile-box.module.css'
 
 import Photo from './photo'
 import { ArrowBottom } from './icons'
-import Button from './button'
+import Button from './button/button'
 import TextBody from './text-body'
 
 function ProfileBox({
